@@ -45,10 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boardScript: {fileID: 0}
-  playerFoodPoints: 15
+  playerFoodPoints: 25
   levelStartDelay: 2
   turnDelay: 0.1
   playersTurn: 1
+  level: 0
+  highestLevel: 0
 --- !u!114 &4448373859423754300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rows: 8
-  columns: 8
+  columns: 16
   wallCount:
     minimum: 5
     maximum: 9
