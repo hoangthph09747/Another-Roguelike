@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873858501772992
-    m_Hash: 524408558
+      ticks: 637875108774105658
+    m_Hash: 4069665138
   m_LockFileStatus:
     m_FilePath: E:/Desktop/New folder/GitHub/Another-Roguelike/Another Roguelike/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637873858802327229
-    m_Hash: 3876302096
+      ticks: 637875108774120730
+    m_Hash: 2103047677
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -905,6 +905,8 @@ m_PackageAssets:
         - 4.1.2
         - 4.1.3
         - 4.1.4
+        - 4.2.0-pre.1
+        - 4.2.0-pre.2
         compatible:
         - 0.0.3
         - 0.0.4
@@ -950,6 +952,8 @@ m_PackageAssets:
         - 4.1.2
         - 4.1.3
         - 4.1.4
+        - 4.2.0-pre.1
+        - 4.2.0-pre.2
         verified: 4.0.3
       dependencies:
       - name: com.unity.ugui
@@ -1549,9 +1553,11 @@ m_PackageAssets:
         - 2.1.6
         - 2.1.7
         - 2.1.8
+        - 2.1.9
         compatible:
         - 2.1.8
-        verified: 2.1.8
+        - 2.1.9
+        verified: 2.1.9
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -3433,6 +3439,8 @@ m_PackageAssets:
         - 1.1.0-pre.69
         - 1.2.0
         - 1.3.1
+        - 1.3.2
+        - 1.4.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3444,6 +3452,8 @@ m_PackageAssets:
         - 1.1.0-pre.69
         - 1.2.0
         - 1.3.1
+        - 1.3.2
+        - 1.4.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest

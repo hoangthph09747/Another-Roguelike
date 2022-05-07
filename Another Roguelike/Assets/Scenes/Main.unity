@@ -267,17 +267,22 @@ PrefabInstance:
     - target: {fileID: 4663114718141323461, guid: a63c7709851574642bcb67caab74e407,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.7
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 4663114718141323461, guid: a63c7709851574642bcb67caab74e407,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.7
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 5615040433651359601, guid: a63c7709851574642bcb67caab74e407,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5615040433651359601, guid: a63c7709851574642bcb67caab74e407,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5615040433651359612, guid: a63c7709851574642bcb67caab74e407,
         type: 3}
