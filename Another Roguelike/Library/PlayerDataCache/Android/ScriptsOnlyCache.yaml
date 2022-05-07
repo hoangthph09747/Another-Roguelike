@@ -65,25 +65,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1846}
     - Class: 114
-      Script: {instanceID: 2116}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2306}
     - Class: 114
-      Script: {instanceID: 2718}
+      Script: {instanceID: 2720}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3508}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 4400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -136,37 +136,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1522}
     - Class: 114
-      Script: {instanceID: 1990}
+      Script: {instanceID: 1992}
     - Class: 114
-      Script: {instanceID: 2116}
+      Script: {instanceID: 2118}
     - Class: 114
-      Script: {instanceID: 2194}
+      Script: {instanceID: 2196}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2306}
     - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 2562}
     - Class: 114
-      Script: {instanceID: 2718}
+      Script: {instanceID: 2720}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2730}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3208}
+      Script: {instanceID: 3210}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3382}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3508}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 3968}
     - Class: 114
-      Script: {instanceID: 4888}
+      Script: {instanceID: 4890}
     - Class: 114
-      Script: {instanceID: 4900}
+      Script: {instanceID: 4902}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 5248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -366,7 +366,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: e40720e6ee14a86f41d8e928237e664e
+      Hash: 762fb6e75ea1aed550f64e3896c3e1b6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -806,4 +806,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Intro.unity
   - Assets/Scenes/Main.unity
-  playerPath: E:/Desktop/a.apk
+  playerPath: E:/Desktop/New folder/GitHub/Another-Roguelike/Another Roguelike.apk
