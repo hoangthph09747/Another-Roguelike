@@ -6,7 +6,6 @@ public abstract class MovingObject : MonoBehaviour
 {
     public float moveTime = .1f;
     public LayerMask blokingLayer;
-
     private BoxCollider2D boxCollider;
     private Rigidbody2D rb2D;
     private float inverseMoveTime;
@@ -55,6 +54,8 @@ where T : Component
         T hitComponent = hit.transform.GetComponent<T>();
         if (!canMove && hitComponent != null)
             OnCantMove(hitComponent);
+      
+
     }
 
     protected abstract void OnCantMove<T>(T component)

@@ -21,7 +21,7 @@ public class Player : MovingObject
 
 
     private Animator animator;
-    private int food;
+    public static int food;
 #if UNITY_IOS || UNITY_ANDROID || UNITY_WP8 || UNITY_IPHONE
     private Vector2 touchOrigin = -Vector2.one; //Used to store location of screen touch origin for mobile controls.
 #endif
@@ -104,13 +104,15 @@ public class Player : MovingObject
 
     protected override void AttempMove<T>(int xDir, int yDir)
     {
-        food--;
-        foodText.text = "Food: " + food;
+        
+        
 
         base.AttempMove<T>(xDir, yDir);
         RaycastHit2D hit;
         if (Move(xDir, yDir, out hit))
         {
+            food--;
+            foodText.text = "Food: " + food;
             SoundManager.instance.RandomizeSfx(moveSound1, moveSound2);
         }
 
